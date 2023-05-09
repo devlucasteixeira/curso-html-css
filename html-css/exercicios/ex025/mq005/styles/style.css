@@ -7,18 +7,19 @@
     padding: 0px;
 }
 html, body{
-    background-color: lightgray;
+    background-color: #e7e7e7;
 }
 
 header{
-    background-color: rgb(149, 149, 149);
+    background-color: #1c65f7;
 }
 header > h1{
+    color: white;
     padding: 10px;
     text-align: center;
 }
 span#burguer{
-    background-color: rgb(48,48, 48);
+    background-color: #1159e8;
     color: white;
     display: block;
     text-align: center;
@@ -28,7 +29,7 @@ span#burguer{
 
 span#burguer:hover{
     background-color: white;
-    color: black;
+    color: #1c65f7;
 }
 
 menu{
@@ -44,13 +45,14 @@ menu > ul > li > a{
     padding: 10px;
     text-decoration: none;
     text-align: center;
-    background-color: rgb(87, 87, 87);
-    color: white;
-    border-top: 2px solid gray;
+    background-color: white;
+    color: #1c65f7;
+    border-top: 2px solid rgb(206, 206, 206);
 }
 
 menu > ul > li > a:hover{
-    background-color: gray;
+    background-color: #1c65f7;
+    color: white;
 }
 
 main{
